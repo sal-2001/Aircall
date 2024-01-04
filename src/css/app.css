@@ -1,5 +1,7 @@
+
+
 #app {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,10 +12,9 @@
 }
 
 #app .container {
+  position: relative;
   width: 376px;
-  height: 666px;
-  z-index: 100;
-
+  min-height: 100vh;
   background: white;
   border-radius: 3px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
